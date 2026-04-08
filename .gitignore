@@ -1,0 +1,59 @@
+# Binaries
+bin/
+build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/agent-deck
+
+# Test binary
+*.test
+
+# Output of go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Playwright
+tests/e2e/node_modules/
+tests/e2e/playwright-report/
+tests/e2e/test-results/
+
+# Go workspace file
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config
+.env
+.env.local
+
+# Agent Deck data (for development)
+.agent-deck/
+
+# VS Code extensions data
+.serena/
+
+# Personal/local files
+.mcp.json
+.playwright-mcp/
+*.screenstudio/
+
+.worktrees
+agent-deck-test
+
+# Tailwind brute-force diff gate scratch file (make css temp artifact)
+internal/web/static/.brute-tw.src.css
